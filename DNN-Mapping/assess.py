@@ -70,7 +70,7 @@ def batch_compute_and_save(clean_dir, denoised_dir, fs, output_csv, prefix, pesq
     clean_files = sorted([f for f in os.listdir(clean_dir) if f.endswith('.wav')])
 
     if not clean_files:
-        print(f"❌ 错误: 文件夹 `{clean_dir}` 中未找到 .wav 文件。")
+        print(f"错误: 文件夹 `{clean_dir}` 中未找到 .wav 文件。")
         return
 
     for filename in clean_files:
@@ -140,3 +140,4 @@ if __name__ == '__main__':
         prefix=ENHANCEMENT_PREFIX,
         pesq_mode=PESQ_MODE
     )
+
