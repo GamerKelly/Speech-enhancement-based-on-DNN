@@ -8,3 +8,6 @@
 - 运行generate_training_data.py，生成带噪语音信号以及train_DNN_data.scp文件。
 - 运行dataset.py，检验训练用数据集是否正确
 - 运行train.py，进行模型训练
+
+## 关于DNN-Masking-IRM的使用说明 ##
+和DNN-Mapping的主要内容基本一样，唯一的修改点是模型的不同。
